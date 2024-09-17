@@ -5,7 +5,7 @@
 module T_flipflop(t,clk,reset,q);
 input t,clk,reset;
 output reg q;
-always@(posedge clk 
+  always@(posedge clk)
   begin
   if(reset) 
   q=1'b0;
