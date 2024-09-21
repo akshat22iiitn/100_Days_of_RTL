@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module testbench;
+module testbenchooooooh;
 reg [3:0] A;
 reg [1:0] S; 
 wire Y;
