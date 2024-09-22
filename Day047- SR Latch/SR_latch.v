@@ -1,7 +1,4 @@
 `timescale 1ns / 1ps
-/////
-
-
 module SR_latch(s,r,en,q,qb);
 input s,r,en;
 output q,qb;
