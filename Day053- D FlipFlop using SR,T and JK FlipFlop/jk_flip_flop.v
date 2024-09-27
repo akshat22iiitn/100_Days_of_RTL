@@ -4,7 +4,7 @@
 module jk_flip_flop(j,k,reset,clk,q,qb);
 input j,k,clk,reset;
 output reg q,qb;
-    always@(posedge clk) b    egin  
+    always@(posedge clk) begin  
 if(reset) begin 
     q=1'b0;
     qb=1'b0;
