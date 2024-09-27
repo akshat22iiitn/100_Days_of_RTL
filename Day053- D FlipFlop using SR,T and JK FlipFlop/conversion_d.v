@@ -6,7 +6,7 @@ input clk,reset,d;
 output qsr,qt,qjk;
 wire w1,w2,w3;
 
-  SR_flipflop sr(d,~d,clk,qsr,~qs   r);    
+  SR_flipflop sr(d,~d,clk,qsr,~qsr);    
 
 assign w1=d&(~qt);
 assign w2=(~d)&qt;
