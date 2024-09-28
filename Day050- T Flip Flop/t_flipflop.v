@@ -2,7 +2,7 @@
 
 
 
-module T_flipflop(t,clk,reset  ,q);
+module T_flipflop(t,clk,reset,q);
 input t,clk,reset;
 output reg q;
   always@(posedge clk)
