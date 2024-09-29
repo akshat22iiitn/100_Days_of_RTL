@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module half_subtractor(a,b,bout,diff)       ;
+module half_subtractor(a,b,bout,diff) ;
 input a,b; 
 output bout,diff; 
 assign bout=(~a)&b;
