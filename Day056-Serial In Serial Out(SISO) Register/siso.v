@@ -2,7 +2,7 @@
 //using behavioral modelling
 
 
-module serial(d_in,reset,clk,d_out);
+module serial(d_in,reset,clk,     d_out);
 input d_in,reset,clk;
 output reg [3:0]  d_out;
 initial 
