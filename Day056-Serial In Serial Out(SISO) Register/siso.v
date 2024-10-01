@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-//using behavioral modelling
+//using behavioral
 
 
 module serial(d_in,reset,clk,d_out);
