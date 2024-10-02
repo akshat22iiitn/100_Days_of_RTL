@@ -4,7 +4,7 @@ module Mux_2x1(s,a,b,o);
 input s,a,b;
 output o;
 reg o;
-  always@(s,a,b)b   egin
+  always@(s,a,b)b   eg   in
 if(s==0)begin
 o=a;
 end
