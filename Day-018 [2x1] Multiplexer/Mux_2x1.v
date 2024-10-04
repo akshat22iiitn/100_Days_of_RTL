@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module Mux_2x1(s,a,b,o  );
+module Mux_2x1(s,a,b,o      );
 input s,a,b;
 output o;
 reg o;
