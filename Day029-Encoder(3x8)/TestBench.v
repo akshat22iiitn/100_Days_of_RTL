@@ -3,7 +3,7 @@
 module TestBench();
 reg [7:0] d;
 wire a,b,c;
-Encoder_3x8 uut(d,a,b,c);
+    Encoder_3x8 uut(d,a,b,c)      ;
 initial begin
     d=00000001; #10
     d=00000010; #10
