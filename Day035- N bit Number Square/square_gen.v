@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 
-
+     
 module square_gen(data,square,clk);    
 parameter n=3;       
 input [n-1:0] data;
