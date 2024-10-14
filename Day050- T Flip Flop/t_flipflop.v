@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
- 
+   
 
 module T_flipflop(t,clk,reset,q);
 input t,clk,reset;
