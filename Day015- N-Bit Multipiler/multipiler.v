@@ -10,7 +10,7 @@ always@(a,b) begin
         if(b[0]) 
         t1=a<<0;
         
-   if(b[1])  
+    if(b[1])  
         t2=a<<1;
         
         if(b[2]) 
