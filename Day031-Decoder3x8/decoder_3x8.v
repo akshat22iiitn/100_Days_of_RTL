@@ -2,7 +2,7 @@
 
 
 
-module Decoder_3x8(a,out); 
+module Decoder_3x8(a,out);  
 input [2:0] a; 
 output reg [7:0] out;
  always@(*)
