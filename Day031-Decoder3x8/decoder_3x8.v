@@ -9,7 +9,7 @@ output reg [7:0] out;
  begin
   out=8'b00000000;
   case(a)
-  3'b000: out[0]=1'b1;
+   3'b000: out[0]=1'b1; 
   3'b001: out[1]=1'b1;
   3'b010: out[2]=1'b1;
   3'b011: out[3]=1'b1;
